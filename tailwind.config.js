@@ -1,11 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,js}",
-    "./*.{html,js}",], // Pastikan pola ini mencakup file HTML atau JS Anda
+    "./*.{html,js}",],
   theme: {
     extend: {
       colors: {
-          customHeader: '#1f2030', // Tambahkan warna kustom di sini
+          customHeader: '#1f2030',
+          customBody: '#0c0d14',
+          secondaryColor: '#6842ff',
       },
       fontFamily: {
           nunito: ['Nunito', 'sans-serif'],
